@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acme Corporation - Pricing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="reveal-up is-visible">
+    
+    <!-- Ambient Glow Background -->
+    <div class="ambient-glow">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="site-header" id="navbar">
+        <div class="header-container">
+            <div class="header-left">
+                <a href="index.html" class="logo-link transition-link">
+                    <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    <span class="logo-text">Elementum</span>
+                </a>
+            </div>
+            
+            <nav class="header-nav">
+                <a href="index.html" class="nav-link transition-link">Platform</a>
+                <a href="index.html" class="nav-link transition-link">Solutions</a>
+                <a href="index.html" class="nav-link transition-link">Customers</a>
+                <a href="pricing.html" class="nav-link transition-link">Pricing</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="login.html" class="login-btn transition-link">Sign In</a>
+                <button class="cta-btn primary glow-effect">Get Started</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="page-header reveal-up delay-1 is-visible">
+            <h1>Simple, transparent pricing.</h1>
+            <p>No hidden fees. No surprise charges. Choose the plan that scales with your infrastructure needs.</p>
+        </div>
+
+        <div class="pricing-grid reveal-up delay-2 is-visible">
+            
+            <!-- Starter -->
+            <div class="pricing-card glass-card">
+                <h3>Starter</h3>
+                <div class="price">$49 <span>/ month</span></div>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;">Perfect for small teams and startups building their first MVP.</p>
+                
+                <ul class="pricing-features">
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Up to 5 users</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 50GB SSD Storage</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Community Support</li>
+                </ul>
+                <button class="cta-btn secondary full-width">Get Started</button>
+            </div>
+
+            <!-- Pro -->
+            <div class="pricing-card highlight-card">
+                <div class="animated-border"></div>
+                <div class="widget-content" style="display:flex; flex-direction:column;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                        <h3 style="margin-bottom:0;">Pro</h3>
+                        <span class="badge-pill" style="margin:0; background:rgba(124,58,237,0.2); border-color: rgba(124,58,237,0.5); color:#fff; font-size:0.75rem;">Most Popular</span>
+                    </div>
+                    <div class="price">$199 <span>/ month</span></div>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem;">Advanced security and performance for scaling businesses.</p>
+                    
+                    <ul class="pricing-features">
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <span style="color:#fff;">Up to 25 users</span></li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <span style="color:#fff;">500GB NVMe Storage</span></li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <span style="color:#fff;">24/7 Priority Support</span></li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <span style="color:#fff;">Advanced Analytics</span></li>
+                    </ul>
+                    <button class="cta-btn primary full-width glow-effect">Start 14-Day Free Trial</button>
+                </div>
+            </div>
+
+            <!-- Enterprise -->
+            <div class="pricing-card glass-card">
+                <h3>Enterprise</h3>
+                <div class="price">Custom</div>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;">Dedicated infrastructure and bespoke solutions for large organizations.</p>
+                
+                <ul class="pricing-features">
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Unlimited users</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Unlimited Storage</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Dedicated Success Manager</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Custom SLA</li>
+                </ul>
+                <button class="cta-btn secondary full-width">Contact Sales</button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

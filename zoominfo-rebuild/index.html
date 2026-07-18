@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acme Corporation - Premium SaaS Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Ambient Glow Background -->
+    <div class="ambient-glow">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="site-header" id="navbar">
+        <div class="header-container">
+            <div class="header-left">
+                <a href="index.html" class="logo-link transition-link">
+                    <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    <span class="logo-text">Elementum</span>
+                </a>
+            </div>
+            
+            <nav class="header-nav">
+                <a href="index.html" class="nav-link transition-link">Platform</a>
+                <a href="index.html" class="nav-link transition-link">Solutions</a>
+                <a href="index.html" class="nav-link transition-link">Customers</a>
+                <a href="pricing.html" class="nav-link transition-link">Pricing</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="login.html" class="login-btn transition-link">Sign In</a>
+                <button class="cta-btn primary glow-effect">Get Started</button>
+            </div>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <!-- Hero Section -->
+        <section class="company-hero reveal-up">
+            <div class="hero-content-wrapper">
+                <div class="badge-pill">
+                    <span class="badge-dot"></span>
+                    Enterprise Infrastructure
+                </div>
+                
+                <h1 class="gradient-text">Acme Corporation</h1>
+                <p class="hero-subtitle">The next generation of distributed systems and scalable cloud infrastructure for modern teams.</p>
+                
+                <div class="hero-actions">
+                    <button class="cta-btn primary glow-effect lg">View Directory</button>
+                    <button class="cta-btn secondary lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                        acmecorp.com
+                    </button>
+                </div>
+            </div>
+            
+            <div class="hero-stats-grid reveal-up delay-1">
+                <div class="stat-card glass-card">
+                    <span class="stat-value"><span class="counter" data-target="2.4">0</span>B+</span>
+                    <span class="stat-label">Annual Revenue</span>
+                </div>
+                <div class="stat-card glass-card">
+                    <span class="stat-value"><span class="counter" data-target="10000">0</span>+</span>
+                    <span class="stat-label">Global Employees</span>
+                </div>
+                <div class="stat-card glass-card">
+                    <span class="stat-value">SF, CA</span>
+                    <span class="stat-label">Headquarters</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Layout Grid -->
+        <div class="layout-grid">
+            <!-- Left Column -->
+            <div class="main-column">
+                
+                <!-- Tabs -->
+                <div class="tabs-nav reveal-up delay-2">
+                    <ul class="tabs-list" role="tablist">
+                        <li class="tab-item active" role="tab" aria-selected="true" data-target="overview">Overview</li>
+                        <li class="tab-item" role="tab" aria-selected="false" data-target="contacts">Contacts</li>
+                        <li class="tab-item" role="tab" aria-selected="false" data-target="technologies">Technologies</li>
+                    </ul>
+                </div>
+
+                <!-- Tab Panels -->
+                <div class="tab-content">
+                    <!-- Overview Tab -->
+                    <div class="tab-panel active" id="overview">
+                        
+                        <!-- About Section -->
+                        <section class="content-card glass-card reveal-up">
+                            <div class="card-glow-hover"></div>
+                            <h2>Company Overview</h2>
+                            <div class="about-text-container">
+                                <p class="about-text">
+                                    Acme Corporation is a leading global provider of innovative technology solutions. Founded in 1995, the company has grown to become a cornerstone in the software development and cloud computing space. We specialize in enterprise-level infrastructure, providing scalable and secure platforms for businesses of all sizes.
+                                    <span class="more-text">
+                                        <br><br>Our mission is to empower organizations through digital transformation. With a deep commitment to sustainable engineering practices, Acme continues to push boundaries in distributed systems and advanced AI workloads.
+                                    </span>
+                                </p>
+                                <button class="read-more-btn">Read full description <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                            </div>
+                        </section>
+
+                        <!-- Key Contacts Section -->
+                        <section class="content-card glass-card reveal-up">
+                            <div class="card-glow-hover"></div>
+                            <div class="section-header">
+                                <h2>Key Leadership</h2>
+                                <a href="#" class="view-all-link">View full directory <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                            </div>
+                            
+                            <div class="contacts-list">
+                                <!-- Contact 1 -->
+                                <div class="contact-row">
+                                    <div class="contact-profile">
+                                        <div class="avatar gradient-1">JS</div>
+                                        <div class="contact-info">
+                                            <strong>John Smith</strong>
+                                            <span>Chief Executive Officer</span>
+                                        </div>
+                                    </div>
+                                    <div class="contact-meta">
+                                        <div class="blur-pill"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> Unlock Email</div>
+                                    </div>
+                                </div>
+                                <!-- Contact 2 -->
+                                <div class="contact-row">
+                                    <div class="contact-profile">
+                                        <div class="avatar gradient-2">JD</div>
+                                        <div class="contact-info">
+                                            <strong>Jane Doe</strong>
+                                            <span>Chief Technology Officer</span>
+                                        </div>
+                                    </div>
+                                    <div class="contact-meta">
+                                        <div class="blur-pill"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> Unlock Email</div>
+                                    </div>
+                                </div>
+                                <!-- Contact 3 -->
+                                <div class="contact-row">
+                                    <div class="contact-profile">
+                                        <div class="avatar gradient-3">MR</div>
+                                        <div class="contact-info">
+                                            <strong>Michael Ray</strong>
+                                            <span>VP of Engineering</span>
+                                        </div>
+                                    </div>
+                                    <div class="contact-meta">
+                                        <div class="blur-pill"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> Unlock Email</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- Placeholder Tabs -->
+                    <div class="tab-panel" id="contacts">
+                        <section class="content-card glass-card">
+                            <h2>All Contacts</h2>
+                            <p class="empty-state">Select a department to view contacts.</p>
+                        </section>
+                    </div>
+                    <div class="tab-panel" id="technologies">
+                        <section class="content-card glass-card">
+                            <h2>Tech Stack</h2>
+                            <p class="empty-state">Technology stack information will appear here.</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Sidebar Column -->
+            <aside class="sidebar-column">
+                
+                <!-- Unlock Widget -->
+                <div class="sidebar-widget highlight-card reveal-up">
+                    <div class="animated-border"></div>
+                    <div class="widget-content">
+                        <h3>Unlock Full Access</h3>
+                        <p>Get instant access to verified email addresses, direct dial phone numbers, and full organizational structure.</p>
+                        <button class="cta-btn primary full-width glow-effect">Unlock Now</button>
+                    </div>
+                </div>
+
+                <!-- Company Details -->
+                <div class="sidebar-widget glass-card reveal-up delay-1">
+                    <h3>At a Glance</h3>
+                    <ul class="details-list">
+                        <li>
+                            <div class="icon-box"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></div>
+                            <div class="detail-text">
+                                <strong>Headquarters</strong>
+                                <span>123 Tech Boulevard<br>San Francisco, CA</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-box"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></div>
+                            <div class="detail-text">
+                                <strong>Phone</strong>
+                                <span>(555) 123-4567</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-box"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></div>
+                            <div class="detail-text">
+                                <strong>Founded</strong>
+                                <span>1995</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+            </aside>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
